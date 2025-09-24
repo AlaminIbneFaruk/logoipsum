@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="">
+  <body class="m-0 p-0">
     <header
       class="lg:px-[calc(5rem*.9)] py-[calc(1.625em*.9)] flex justify-between items-center p-4 shadow-lg"
     >
@@ -47,12 +47,39 @@
       <div>
         <a href="#contact">
           <button
-            class="text-[#5E3BEE] px-[calc(2.625rem*.9)] py-[calc(1.125em*.9)] border border-[#5E3BEE] rounded hover:bg-[#5E3BEE] hover:text-white text-[calc(1.375rem*.9)]"
+            class="text-[#5E3BEE] px-[calc(1.865rem*.9)] py-[calc(1.4rem*.9)] border border-[#5E3BEE] rounded hover:bg-[#5E3BEE] hover:text-white text-[calc(1.375rem*.9)]"
           >
             Contact me
           </button></a
         >
       </div>
     </header>
+    <main>
+      <section
+        class="flex flex-col md:flex-row items-center space-y-4 px-32 py-32 bg-[#F5FCFF]"
+      >
+        <article>
+          <p class="leading-5 font-semibold text-[1.475rem] p-[]">
+            Hey, I am John
+          </p>
+          <h3 class="text-[calc(4.75rem*.9)] font-bold leading-tight">
+            I create <span class="text-[#5E3BEE]">product design</span> and
+            brand experience
+          </h3>
+          <p class="text-[calc(1.5rem*.9)] leading-7 mb-8">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+            Suspendisse varius enim in eros elementum tristique.
+          </p>
+          <button
+            class="bg-[#5E3BEE] text-white px-[calc(1.865rem*.9)] py-[calc(1.4rem*.9)]"
+          >
+            Get In Touch
+          </button>
+        </article>
+        <figure class="h-auto w-[calc(80rem*.9)]">
+          <img src="./images/hero1.png" alt="" class="h-full w-full" />
+        </figure>
+      </section>
+    </main>
   </body>
 </html>

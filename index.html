@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -6,8 +6,53 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="">
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <header
+      class="lg:px-[calc(5rem*.9)] py-[calc(1.625em*.9)] flex justify-between items-center p-4 shadow-lg"
+    >
+      <div class="w-auto h-12">
+        <a href="#" class="no-underline flex items-center h-full">
+          <div class="lg:hidden mr-4">
+            <img
+              src="https://img.icons8.com/ios/50/menu--v1.png"
+              alt="menu--v1"
+            />
+          </div>
+          <img src="./images/Logo.png" alt="Logo" class="h-full w-full" />
+        </a>
+      </div>
+      <nav>
+        <ul
+          class="lg:flex-row md:flex md:flex-col hidden lg:gap-[calc(2.625rem*.9)] text-[calc(1.375em*.9)]"
+        >
+          <li class="list-none">
+            <a href="#" class="no-underline hover:text-[#5E3BEE]"> Home </a>
+          </li>
+          <li class="list-none">
+            <a href="#portfolio" class="no-underline hover:text-[#5E3BEE]">
+              Portfolio
+            </a>
+          </li>
+          <li class="list-none">
+            <a href="#about" class="no-underline hover:text-[#5E3BEE]">
+              About me
+            </a>
+          </li>
+          <li class="list-none">
+            <a href="#testimonials" class="no-underline hover:text-[#5E3BEE]">
+              Testimonials
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <a href="#contact">
+          <button
+            class="text-[#5E3BEE] px-[calc(2.625rem*.9)] py-[calc(1.125em*.9)] border border-[#5E3BEE] rounded hover:bg-[#5E3BEE] hover:text-white text-[calc(1.375rem*.9)]"
+          >
+            Contact me
+          </button></a
+        >
+      </div>
+    </header>
   </body>
 </html>
